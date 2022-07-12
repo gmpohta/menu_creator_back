@@ -1,10 +1,11 @@
 # menu_creator_back
 Backend for menu creator
 
-INSTALL
+#INSTALL
 
 npm i
 
-DEBUG 
+#DEBUG 
 
+npx prisma migrate dev
 npm run dev
