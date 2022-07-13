@@ -14,7 +14,6 @@ app.use(express.json())
 app.use(apiRouter)
 
 app.use(express.static('public')); 
-//app.use('/public', express.static('uploads'));
 
 app.use((req, res, next) => {
   res.status(404);
