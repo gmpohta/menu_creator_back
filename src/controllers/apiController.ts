@@ -84,7 +84,7 @@ class apiController{
             weight:100,
             price:25,
             description:'Мягкая французская булочка, к чаю'
-            image:"../uploads/1452222.png"
+            image:"public/1452222.png"
         }]*/
         try{
             const allDishes = await prisma.dish.findMany({})
